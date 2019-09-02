@@ -14,12 +14,14 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/lukpod1/10conto/issues"
+  "devDependencies": {
+    "sequelize-cli": "^5.5.0"
   },
-  "homepage": "https://github.com/lukpod1/10conto#readme",
   "dependencies": {
     "body-parser": "^1.19.0",
-    "express": "^4.17.1"
+    "dotenv": "^8.1.0",
+    "express": "^4.17.1",
+    "pg": "^7.12.1",
+    "sequelize": "^5.17.2"
   }
 }
